@@ -23,5 +23,7 @@ start_link() ->
 %% ===================================================================
 
 init([]) ->
-    {ok, { {one_for_one, 5, 10}, []} }.
+		NodeSup = ?CHILD(grs_node_sup, supervisor),
+		EdgeSup = ?CHILD(grs_edge_sup, supervisor),
+    {ok, { {one_for_one, 5, 10}, [NodeSup, EdgeSup]} }.
 

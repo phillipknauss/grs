@@ -38,7 +38,6 @@ grs - API module.
 
 		Methods:
 			node/0 (create a new node)
-			node/1 (get the node at the specified pid)
 			edge/2 (create an edge between the two specified nodes)
 			walk(start, edge_node_pattern) (walks from the specified start node following a specified pattern, terminating when no longer matches or reaches end)
 
