@@ -1,0 +1,9 @@
+.eunit
+deps
+rel/*node
+*.o
+*.beam
+*.plt
+*.app
+*.swp
+erl_crash.dump

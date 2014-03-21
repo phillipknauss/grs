@@ -1,0 +1,3 @@
+-name ts
+-setcookie riak
+-mnesia dir '"/tmp/mnesia"'
