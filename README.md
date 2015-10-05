@@ -34,9 +34,10 @@ The original implementation work on this did not make use of typespecs. As soon 
 TODO:
 
 1. Update edges' node lists when node sets its name
-2. Update nodes' edge listss when edge sets its name
+2. Update nodes' edge lists when edge sets its name
 3. Implement walk() functionality (see doc/spec.t)
 4. Unit tests
+5. Configure for hot code deployments
 
 TO DESIGN THEN DO:
 
