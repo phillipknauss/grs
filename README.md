@@ -27,6 +27,10 @@ Example:
 {ok,[]}
 ```
 
+Code standard note:
+
+The original implementation work on this did not make use of typespecs. As soon as possible, this code will be updated to make thorough use of typespecs.
+
 TODO:
 
 1. Update edges' node lists when node sets its name
